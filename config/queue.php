@@ -4,25 +4,25 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Queue Connection Name
+    | Nome da Conexão de Fila Padrão
     |--------------------------------------------------------------------------
-    |
-    | Laravel's queue supports a variety of backends via a single, unified
-    | API, giving you convenient access to each backend using identical
-    | syntax for each. The default queue connection is defined below.
-    |
+
+    | A fila do Laravel suporta uma variedade de backends através de uma única API unificada,
+    | proporcionando acesso conveniente a cada backend usando a mesma
+    | sintaxe para cada um. A conexão de fila padrão é definida abaixo.
     */
 
     'default' => env('QUEUE_CONNECTION', 'database'),
 
     /*
     |--------------------------------------------------------------------------
-    | Queue Connections
-    |--------------------------------------------------------------------------
+    | Conexões de Fila QUEUE
+    --------------------------------------------------------------------------
     |
-    | Here you may configure the connection options for every queue backend
-    | used by your application. An example configuration is provided for
-    | each backend supported by Laravel. You're also free to add more.
+
+    | Aqui você pode configurar as opções de conexão para cada backend de fila
+    | usado pelo seu aplicativo. Um exemplo de configuração é fornecido para
+    | cada backend suportado pelo Laravel. Você também pode adicionar outros.
     |
     | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
     |
@@ -76,13 +76,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Job Batching
+    | Agrupamento de Tarefas
     |--------------------------------------------------------------------------
-    |
-    | The following options configure the database and table that store job
-    | batching information. These options can be updated to any database
-    | connection and table which has been defined by your application.
-    |
+
+    | As opções a seguir configuram o banco de dados e a tabela que armazenam as tarefas
+    | informações de agrupamento. Essas opções podem ser atualizadas para qualquer banco de dados
+    | conexão e tabela que tenha sido definida pelo seu aplicativo.
     */
 
     'batching' => [
